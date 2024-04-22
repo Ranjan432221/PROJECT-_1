@@ -1,0 +1,75 @@
+@media screen and (max-width: 780px){
+    /*======== header section=========  */
+    html{
+        width: 100%;
+    }
+    .title-name{
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-bar{
+        /* width: 99.4%; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-bar .name{
+        display: none;
+        /* border: 2px solid red; */
+    }
+    .nav-bar ul{
+        gap:8%;
+    }
+    .nav-bar ul li{
+        font-size: .8rem;
+    }
+    /*========= main body section ======= */
+    .main-body h2{
+        font-size: medium;
+    }
+    .main-body p{
+        font-size: 15px;
+    }
+    .main-body .img2{
+          height: 104vh;
+    }
+    .main-body .box1{
+        height: 104vh;
+    }
+    .main-body .log1{
+        gap: 1%;
+        margin-top: none;
+    }
+    .main-body .t{
+        padding: 5px;
+        font-size: 10px;
+        width: 10px;
+        margin: 3px 2px;
+        border-radius: 50%;
+    }
+    /*========member section=========*/
+    .member .member-section{
+        display: grid;
+        margin-left: 3%;
+    }
+    .member .member-section .member-id1{
+        width: 80%;
+        margin-top: 4%;
+    }
+
+    /* ============== Sign Up ======== */
+    .contact2{
+        /* padding: 5%; */
+    }
+    form{
+        width: 80%;
+    }
+    .log-in-box {
+        width: 80%;
+        max-width: 250px;
+        min-width: 200px;
+        margin-left: 25%;
+    }
+}
